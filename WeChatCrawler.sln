@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeChatCrawler", "WeChatCrawler\WeChatCrawler.csproj", "{3B06FC40-11C3-40D6-B6D3-B8C770E00FEF}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common", "Common\Common.shproj", "{6B0A0400-BD2A-4672-80FD-33BAA1677967}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeChatCrawlerWebApi", "WeChatCrawlerWebApi\WeChatCrawlerWebApi.csproj", "{BE89EFE8-11BA-4256-BB3E-D012BB95A283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler\Crawler.csproj", "{8FBC45C3-6CFD-431C-BAED-0E6B77A9C4A8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Common\Common.projitems*{3b06fc40-11c3-40d6-b6d3-b8c770e00fef}*SharedItemsImports = 4
+		Common\Common.projitems*{6b0a0400-bd2a-4672-80fd-33baa1677967}*SharedItemsImports = 13
+		Common\Common.projitems*{8fbc45c3-6cfd-431c-baed-0e6b77a9c4a8}*SharedItemsImports = 4
+		Common\Common.projitems*{be89efe8-11ba-4256-bb3e-d012bb95a283}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B06FC40-11C3-40D6-B6D3-B8C770E00FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B06FC40-11C3-40D6-B6D3-B8C770E00FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B06FC40-11C3-40D6-B6D3-B8C770E00FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B06FC40-11C3-40D6-B6D3-B8C770E00FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE89EFE8-11BA-4256-BB3E-D012BB95A283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE89EFE8-11BA-4256-BB3E-D012BB95A283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE89EFE8-11BA-4256-BB3E-D012BB95A283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE89EFE8-11BA-4256-BB3E-D012BB95A283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBC45C3-6CFD-431C-BAED-0E6B77A9C4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBC45C3-6CFD-431C-BAED-0E6B77A9C4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBC45C3-6CFD-431C-BAED-0E6B77A9C4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBC45C3-6CFD-431C-BAED-0E6B77A9C4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9171E6CE-6D68-4C73-ACB7-560EC52A97F4}
+	EndGlobalSection
+EndGlobal
